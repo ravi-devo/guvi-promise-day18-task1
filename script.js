@@ -1,5 +1,6 @@
 const f1Data = document.querySelector('.f1-formula-data');
 
+//Anonumous function that will automatically called
 (async function () {
     try {
         const response = await fetch("https://ergast.com/api/f1/drivers.json?");
